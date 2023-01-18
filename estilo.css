@@ -1,0 +1,310 @@
+* {
+  font-family: "Oswald", sans-serif;
+  scroll-behavior: smooth;
+}
+.navbar-nav {
+  justify-content: center;
+  margin: auto;
+  font-size: 26px;
+}
+.navbar-nav a:hover {
+  font-size: 35px;
+  color: white;
+}
+.redes a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  color: black;
+}
+#navA {
+  background-color: beige;
+  padding: 0 0;
+}
+
+#inicio {
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(./img/img2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#bien {
+  padding-top: 100px;
+  color: white;
+  font-size: 45px;
+}
+#ing {
+  padding-top: 50px;
+  color: white;
+  font-size: 45px;
+}
+#r {
+  color: chocolate;
+  font-size: 35px;
+}
+#frases {
+  padding-top: 60px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+#boton1 {
+  margin: 100px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 10px 40px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#boton1:hover {
+  background: white;
+  color: black;
+  transition-delay: 0.2s;
+}
+
+#sobremi {
+  padding: 50px;
+  margin: auto;
+}
+#sobremi p {
+  font-size: 20px;
+  text-align: justify;
+}
+#sobremi h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: chocolate;
+  text-decoration-thickness: 5px;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
+#sobremi h3 {
+  font-weight: bold;
+  margin: 20px 0;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+#sobremi i {
+  font-size: 25px;
+  padding: 0 5px;
+}
+#b2 {
+  padding-bottom: 20px;
+}
+#boton2 {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 50px;
+  border: 2px solid black;
+  padding: 5px 50px;
+}
+
+#habilidades {
+  color: white;
+  background: linear-gradient(lightgrey, rgba(0, 0, 0, 0.5)), url(img/img1.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 50px;
+  text-align: center;
+}
+#skills {
+  max-width: 600px;
+  margin: 30px auto;
+}
+#info2 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.lista {
+  display: inline-block;
+  margin-right: 20px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+.barra {
+  background-color: grey;
+  width: 100%;
+  height: 6px;
+  margin: 10px 0;
+}
+.porcentaje1 {
+  background-color: white;
+  width: 89%;
+  height: 6px;
+  animation: progreso1 2s forwards;
+}
+.porcentaje2 {
+  background-color: white;
+  width: 95%;
+  height: 6px;
+  animation: progreso2 2s forwards;
+}
+.porcentaje3 {
+  background-color: white;
+  width: 80%;
+  height: 6px;
+  animation: progreso3 2s forwards;
+}
+.porcentaje4 {
+  background-color: white;
+  width: 80%;
+  height: 6px;
+  animation: progreso4 2s forwards;
+}
+.porcentaje5 {
+  background-color: white;
+  width: 90%;
+  height: 6px;
+  animation: progreso5 2s forwards;
+}
+.porcentaje6 {
+  background-color: white;
+  width: 100%;
+  height: 6px;
+  animation: progreso6 2s forwards;
+}
+.porcentaje7 {
+  background-color: white;
+  width: 95%;
+  height: 6px;
+  animation: progreso7 2s forwards;
+}
+@keyframes progreso1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes progreso2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes progreso3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progreso4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes progreso5 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes progreso6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes progreso7 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+#portafolio {
+  padding: 50px 0;
+  margin: auto;
+}
+#portafolio h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: chocolate;
+  text-decoration-thickness: 5px;
+  padding-bottom: 50px;
+}
+.card-group {
+  padding: 20px 20px;
+}
+.card {
+  filter: grayscale(1);
+  padding: 20px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card:hover {
+  filter: grayscale(0);
+}
+.card-title{
+    font-size: 25px;
+    
+}
+.card-text{
+    font-size: 18px;
+}
+
+#contacto {
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+#contacto h1 {
+  text-decoration: underline;
+  text-decoration-color: chocolate;
+  text-decoration-thickness: 5px;
+  padding-bottom: 50px;
+}
+#contacto .row {
+  align-items: center;
+}
+#contacto .col {
+  align-items: center;
+  padding: 50px;
+}
+#qr img {
+  width: 250px;
+  height: 250px;
+}
+#map iframe {
+  width: 500px;
+  height: 300px;
+}
+#foot {
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+#foot a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 4px;
+  font-size: 17px;
+}
